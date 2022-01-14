@@ -1,0 +1,24 @@
+body {
+    background-image: url("milky-way.jpeg");
+    background-color: #cccccc;
+    color:hotpink;
+   }
+
+h1  {
+    border: 5px solid black;
+    width: fit-content;
+    padding: 5px;
+}
+
+figure {margin: 5px;
+}
+
+a   {color: greenyellow;
+}
+
+p   {border:4px dotted coral;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 5px;
+    background-color:black;
+}

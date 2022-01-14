@@ -1,0 +1,93 @@
+  /* At the top level of your code */
+  @media screen and (min-width: 800px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+
+/* Nested within another conditional at-rule */
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    article {
+      display: flex;
+    }
+  }
+}
+
+* {box-sizing: border-box;}
+
+body {
+    width: 90%;
+    font-family: "Calibri";
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+     }
+
+  .mydiv {
+    box-shadow: 5px 10px #888888;
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    background: url(freecode.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color:orchid;
+    text-shadow: 2px 2px paleturquoise;
+    transition-property: width;
+  }
+
+  div:hover {
+    background-color: yellow;
+  }
+  
+  a {
+    color: #6dd4b1;
+    transition: all 0.2s linear;
+    }
+
+  .img {
+    box-shadow: 5px 10px #888888;
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    background: url(freecode.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color:orchid;
+    text-shadow: 2px 2px paleturquoise;
+  }
+
+  aside {
+    width: 50%;
+    float: left;
+    padding: 2%;
+    display: block;
+}
+
+  section {
+    width: 50%;
+    float: right;
+    padding: 2%;
+}
+
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}

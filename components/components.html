@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <title>09B</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mystyles.css" rel="stylesheet">
+</head>
+
+<body id="alku">
+    <header>Components</header>
+
+    <nav class="navbar fixed-top navbar-expand-lg">Navigation
+        <a href="#alku">Search here</a>
+
+        <a href="#alku">First<br>
+        </a>
+
+        <a href="#keski">Second<br>
+        </a>
+
+        <a href="#loppu">Third<br>
+        </a>
+
+
+    </nav>
+
+    <p id="Cicero">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere, ipsum id malesuada auctor, est
+        velit fringilla lorem, vitae malesuada leo dui sit amet massa. Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos. Nunc vestibulum non ligula ac blandit. Donec sagittis laoreet
+        dignissim. Donec luctus libero et laoreet imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum et erat vitae lacus consequat efficitur. Praesent efficitur turpis at dolor pretium dapibus.
+
+        Fusce sed venenatis nunc. Phasellus sit amet enim vel leo luctus venenatis. Nulla lobortis orci eu egestas
+        malesuada. Phasellus at sem ultricies, tempor mauris vitae, dapibus ante. Etiam dolor elit, posuere sed
+        tincidunt eu, pharetra ac eros. Quisque interdum congue hendrerit. Integer ut diam sapien. Fusce vehicula magna
+        vel purus feugiat, ac consectetur libero tincidunt. Integer sit amet quam mauris. Sed nec consectetur quam,
+        vitae luctus urna. Nullam sollicitudin ante ut accumsan sagittis. Vestibulum vehicula blandit dolor, sed
+        interdum massa ultrices sit amet. Sed tempor volutpat odio, at mollis dui. Nulla et justo et lectus ullamcorper
+        viverra nec id justo. Mauris quis imperdiet urna. Vestibulum maximus ac purus vel auctor.
+
+        Proin non nisl eget justo vestibulum maximus. In hac habitasse platea dictumst. Nulla facilisi. Nunc nisl felis,
+        aliquam ut nulla efficitur, euismod hendrerit arcu. Aenean non sapien neque. Pellentesque interdum leo viverra
+        est pellentesque pharetra. Vestibulum bibendum euismod elit quis cursus.
+
+        Sed suscipit nisi velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Nulla eros justo, facilisis at ante vitae, posuere varius enim. Praesent in auctor erat. Ut semper tellus
+        consectetur euismod maximus. In lacinia vulputate ornare. Quisque quis dui posuere, mattis ipsum ac, lacinia
+        turpis. Nunc aliquam sagittis enim, eget consequat mi ultricies eget. Vivamus consectetur dui at sapien viverra
+        porttitor. Integer vitae tincidunt velit, condimentum eleifend dolor. Vivamus quam lectus, egestas sit amet est
+        non, convallis eleifend tortor. Proin non posuere lorem. Curabitur vehicula imperdiet dignissim. Aenean non
+        consequat metus.
+
+        Mauris euismod finibus elit at mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        Pellentesque elementum ut nisi pellentesque sollicitudin. Quisque eget auctor quam. Pellentesque felis purus,
+        feugiat a arcu ut, pharetra luctus dolor. Cras ac tempus odio. Fusce convallis leo nec risus tincidunt blandit.
+        Phasellus lobortis sit amet nisl in faucibus. Phasellus aliquet erat risus, at scelerisque odio vestibulum quis.
+        Ut vel turpis id purus eleifend tincidunt. Fusce congue nisi sit amet ligula porttitor, sit amet rhoncus dolor
+        pellentesque.
+    </p>
+
+    <h3 id="keski">Third component</h3>
+
+    <h4>Picture of Lily</h4><br>
+    <img class="img-fluid" src="lily.jpg" alt="Lily">
+    <br>
+
+    <h4>Picture of Joe</h4><br>
+    <img class="rounded-circle" src="joe.jpg" alt="Joe">
+    <br>
+
+    <h4>Picture of Steve</h4><br>
+    <img class="rounded" src="steve.jpg" alt="Steve">
+
+
+    <h5>Fourth component</h5>
+
+    <p>Hit the button</p>
+
+    <h6>Button cataloque</h6>
+
+    <button onclick="funktio()" .button1 type="button" class="btn">Basic</button>
+
+
+
+    <script>
+        function funktio() {
+            document.getElementById("Cicero").style.color = "white";
+        }
+    </script>
+
+
+    <h6>Button two</h6>
+    <button onclick="funktio2()" .button2 type="button" class="btn-default">Standard</button>
+
+
+    <script>
+        function funktio2() {
+            document.getElementById("Cicero").style.color = "red";
+
+
+        }
+    </script>
+
+    <h6>Button three</h6>
+    <button onclick="funktio3()" .button3 type="button" class="btn-success">Succeed</button>
+    <script>
+        function funktio3() {
+            document.getElementById("Cicero").style.color = "black";
+
+        }
+    </script>
+
+    <h6 id="loppu">The End</h6>
+    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+    <p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+    </p>
+    <a href="#alku">To the top!</a><br>
+    <a href="https://alexanderthe-great.github.io/third.html/">Tsekkaa myös Uuno!</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+*{  
+    box-sizing: border-box;
+}
+
+header {
+    background-color:plum;
+}
+
+body {
+    width: 90%;
+    font-family: "Calibri";
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: papayawhip;
+    float: left;
+    width: 40%;
+}
+
+nav {
+    background-color: coral;
+    float: left;
+    width: 20%;
+}
+
+h2  {
+    background-color: peru;
+    height: 100px;
+}
+
+ul {
+    list-style-type:circle;
+    margin: 25px;
+    padding:0%;
+  }
+
+  p:first-child {
+    color:navy;
+  }
+
+  /* unvisited link */
+a:link {
+    color:black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }

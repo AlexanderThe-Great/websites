@@ -1,0 +1,19 @@
+body {
+color: white;
+background-color: black;
+}
+
+h1 {
+    font-size:  20px;
+}
+
+p{
+    font-size: 12px;
+    color: green;
+}
+
+.div {
+    height: 100px;
+    width: 100px;
+    border: dotted; border-width: 2px;
+}
